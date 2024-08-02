@@ -1,17 +1,12 @@
 .navborder {
     display: flex;
     border: none;
-    
-    
-}
-
-li {
     margin-right: 20px;
     color: black;
     font-size: 20px;
-    list-style: none;
-    
+    list-style: none;   
 }
+
 
 .navbar {
     display: flex;
@@ -36,5 +31,51 @@ a {
 
 .navlist {
     display: flex;
+    
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    background-color:lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    height: 28px;
+    width: 75px;
+    font-size: 18px;
+    border-radius: 10%;
+}
+
+.experience {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.reshead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employment {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+.dates {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-left: 80%;
+}
+
+.line {
+    border: solid black;
+    background-color: black;
+    height: 1px;
+    width: 1260px;
+}
+
+.body {
     
 }
