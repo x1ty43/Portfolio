@@ -84,7 +84,8 @@ button {
 
 .tyler {
     border: solid black 5px;
-    border-radius: 25px;  
+    border-radius: 25px; 
+    margin-left: 60%; 
 }
 
 .head {
@@ -102,9 +103,23 @@ button {
 }
 
 .contact {
-    border: solid black 5px;
+    border: double black 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: "Gupter", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  display: grid;
+  justify-content: center;
 }
 
 .projects {
-    border: solid black 5px;
+    display: grid;
+    justify-content: center;
+    font-family: "Gupter", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
 }
+
