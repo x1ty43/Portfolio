@@ -32,6 +32,7 @@ body {
 
 a {
     color: black;
+    text-decoration: none;
 }
 
 .navlist {
@@ -50,15 +51,32 @@ button {
     border-radius: 10%;
 }
 
+button:hover {
+    background-color: white;
+}
+
 .experience {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
+}
+
+.email {
+    width: 158px;
+}
+
+.email:hover {
+    background-color: white;
+}
+
+.resumebody {
+    margin-right: 30%;
 }
 
 .reshead {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 35%;
 }
 
 .employment {
@@ -70,8 +88,7 @@ button {
 .dates {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10%;
-    margin-left: 80%;
+    margin-left: 120%;
 }
 
 .line {
@@ -85,14 +102,27 @@ button {
 .tyler {
     border: solid black 5px;
     border-radius: 25px; 
-    margin-left: 60%; 
+    margin-left: 50%;   
 }
 
-.head {
+.homeimg {
+    height: 100px;
+    margin-left: 50%;
+    display: flex;
+    margin-right: 50%;
+    
+}
+
+.homehead {
+    display: flex;
     border: none;
     overflow: hidden;
     margin-right: 70%;
     font-size: 25px;
+}
+
+.homebody {
+    padding: 3%;
 }
 
 .paragraph {
@@ -100,6 +130,7 @@ button {
   font-weight: 700;
   font-style: normal;
   font-size: 25px;
+  margin-bottom: 5%;
 }
 
 .contact {
@@ -121,6 +152,10 @@ button {
   font-weight: 700;
   font-style: normal;
   font-size: 25px;
+}
+
+.projectlink:hover {
+    background-color: white;
 }
 
 #username {
@@ -148,4 +183,40 @@ button {
 .contactbutton {
      display: grid;
      align-self: center;
+     transition: .2s ease-in-out;
 }
+
+.contactbutton:hover{
+    background: white;
+    
+}
+
+.thankyoulink {
+    text-decoration: none;
+    color: white;
+}
+
+.thankyoulink:hover {
+    background-color: rgb(167, 238, 238);
+}
+
+.thankyou {
+    background-color: lightblue;
+    padding: 15%;
+}
+
+.thankyouhead {
+    display: grid;
+    justify-content: center;
+    color: white;
+    font-size: 500%;
+}
+
+.thankyoudiv {
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    color: white;
+    
+}
+
